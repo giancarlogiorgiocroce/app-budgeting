@@ -1,0 +1,31 @@
+# Private project planning material
+/docs/
+/README.md
+*.private.md
+*.local.md
+*.secret.md
+
+# Codex/local agent state
+/.agents/
+/.codex/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+local.properties
+key.properties
+google-services.json
+*.keystore
+*.jks
+*.p12
+*.pem
+
+# Android and build output
+/.gradle/
+/build/
+/app/build/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
